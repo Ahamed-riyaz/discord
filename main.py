@@ -2,9 +2,9 @@ import discord
 from discord.ext import commands
 import openai
 
-TOKEN = "MTA4NzI1MjE1NzA2Mjk3OTU4NA.GiaZeB.nie5kaQWzzkhF5JFchDdjd4vvqnO_eRATL626A"
-CHANNEL_ID = 1087254649196785664
-API_KEY = "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"
+TOKEN = "TOKEN"
+CHANNEL_ID = "CHANNEL_ID"
+API_KEY = "API_KEY"
 openai.api_key = API_KEY
 
 bot = commands.Bot(command_prefix="@", intents=discord.Intents.all())
