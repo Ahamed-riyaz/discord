@@ -28,21 +28,4 @@ async def on_message(message):
     channel = bot.get_channel(CHANNEL_ID)
     await channel.send(f"{response}")
 
-# @bot.command()
-# async def hello(arg)
-    # content = arg.content
-    # completion = openai.ChatCompletion.create(
-    #     model="gpt-3.5-turbo",
-    #     messages=[
-    #         {"role": "system", "content": "You're an AI"},  # behaviour
-    #         {"role": "user", "content": content},  # asking question
-    #     ]
-    # )
-    # response = completion.choices[0].message.content
-    # res = {"role": "assistant", "content": response}
-    # channel = bot.get_channel(CHANNEL_ID)
-    # # print(f"CHATGPT {response}")
-    # await channel.send(f"{response}")
-
-
 bot.run(TOKEN)
